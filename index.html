@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // console.log( "it's a programming language");
+    // console.log( `"javascript is a programming language. it's an scripting language"`);
+    // var name="nepathya";
+    // var age=20;
+    // console.log(name);
+    // console.log(age);
+    // let num1=100;
+    // let num2=200;
+    // console.log(num1+num2)
+    //    let example
+    // let a=10;
+    // a=11;
+    // document.write(a)
+    // result will be 11
+    // let b=100
+    // console.log(b)
+    // resilt will be 200
+    //  const c=200;
+    //  c=100;
+    //  console.log(c)
+    //  error occured
+    // const pi=3.24
+    // console.log(pi);
+    // document.write(pi)
+    //result will be 3.24
+    // let a=30
+    // console.log(a+10)
+    // console.log(a-10)
+    // console.log(a/10)
+    // console.log(a*10)
+    // let a=30;
+    // a++;
+    // console.log(a)
+    // document.write(a)
+    // let b=30
+    // b--;
+    // console.log(b)
+    // let a=10
+    // let b=10
+    // result=(a===b)
+    // console.log(result)
+    // let a = 30
+    // a += 1
+    // a -= 1
+    // console.log(a)
+    // let b = 30
+
+    // b -= 1
+    // console.log(b)
+    // let a=20
+    // console.log(a**2);
+    // let a="10"
+    // console.log(a!=="11")
+    // let a=10
+    // let b=20
+    // if(a<5)
+    // console.log("a is greater")
+    // else
+    // console.log("a is smaller")
+    // let percantage=prompt("enter the percantage")
+    // if(percantage>=90)
+    // console.log("distinction")
+    // else
+    // if (percantage<90 && percantage>=80)
+    //     console.log("first")
+    //     else
+    //     if (percantage<80 && percantage >=70)
+    //         console.log("second")
+    //         else
+    //         if(percantage<70 && percantage>=40)
+    //             console.log("third")
+    //             else
+    //            if (percantage<40)
+    //             console.log("fail")
+    //normal wala
+    // let x = prompt("Enter any alphabet");
+    // if (x === "a") {
+    //     console.log("Sunday");
+    // } else if (x === "b") {
+    //     console.log("Monday");
+    // } else if (x === "c") {
+    //     console.log("Tuesday");
+    // } else if (x === "d") {
+    //     console.log("Wednesday");
+    // } else if (x === "e") {
+    //     console.log("Thursday");
+    // } else if (x === "f") {
+    //     console.log("Friday");
+    // } else if (x === "g") {
+    //     console.log("Saturday");
+    // } else {
+    //     console.log("Others");
+    // }
+    //switch wala
+    // let x = prompt("Enter any alphabet");
+
+    // switch (x) {
+    //     case "a":
+    //         console.log("Sunday");
+    //         break;
+    //     case "b":
+    //         console.log("Monday");
+    //         break;
+    //     case "c":
+    //         console.log("Tuesday");
+    //         break;
+    //     case "d":
+    //         console.log("Wednesday");
+    //         break;
+    //     case "e":
+    //         console.log("Thursday");
+    //         break;
+    //     case "f":
+    //         console.log("Friday");
+    //         break;
+    //     case "g":
+    //         console.log("Saturday");
+    //         break;
+    //     default:
+    //         console.log("Others");
+    //         break;
+    // }
+    //object ko example
+    // let data_object = {
+    //     "name": "Bebas pandey",
+    //     "class": "bsc.csit 2nd sem",
+    //     "rollno": "11",
+    //     "present": "true",
+
+
+    // }
+    // console.log(data_object);
+    // //array ko example ho
+    // let array = ["Bebas pandey", "bsc.csit 2nd sem", 12, true];
+    // console.log(array)
+    // //data ko examole
+    // let date = new Date();
+    // console.log(date);
+    // // null ko example
+    // let null_value = null;
+    // console.log(null_value)
+    // //undifined example
+    // let undifine_example;
+    // console.log(undifine_example)
+    // //array of object
+    // let array_object = [
+    //     {
+    //         name: "Bebas pandey",
+    //         address: "janakinagar"
+    //     },
+    //     {
+    //         name: "Bibek bishwokarma",
+    //         address: "manigram"
+    //     }
+    // ]
+    // console.log(array_object)
+    // //typeof() example
+    // let a="123"
+    // let b=113
+    // console.log(
+    // typeof(a),
+    // typeof(b))
+    //push ko
+    // let arr=["math","science","social"]
+    // console.log(arr)
+    // arr.push("computer");
+    // console.log(arr)
+    // const array=["1st sem" ,"2nd sem",1,2];
+    // array.push(true);
+    // console.log(array);
+    // let beb=["a","b","c","d","e"]
+    // beb.push("x","y","z")
+    // console.log(beb)
+    //pop
+    // let arr=[6,"true",`"name"`,9,2]
+    // arr.pop()
+    // console.log(arr)
+    // let some=[6,"true",`"name"`,9,2];
+    // let len=some.length;
+    // // console.log(len);
+    // for(let x=1; x<=len; x++){
+    //     console.log(some.pop());
+
+    // }
+    // let arr1 = ["a", "b", "c", "d"];
+    // let arr2 = ["f", "g", "h", "i"]
+    // let arr3 = ["x", "y", "z"]
+    // let somes = arr2.concat(arr1, arr3)
+    // console.log(somes)
+    //shift ko
+    // let some = [6, "true", `"name"`, 9, 2];
+    // let len = some.length;
+    // console.log(len);
+    // for (let x = 1; x <= len; x++) {
+    //     console.log(some.shift());
+
+    // }
+    //assignment
+    // const arr = ["a", "b", "c", "d", "e", "f", "g", "h", "i"]
+    // arr.shift()
+    // arr.shift()
+    // arr.shift()
+    // arr.shift()
+    // arr.shift()
+    // console.log(arr.shift())
+    //assingnment
+    // const brr1 = [1, 2, 3, 46, 9];
+    // const brr2 = [10, 11, 12, 13]
+    // let crr1 = brr2.concat(brr1);
+    // console.log(crr1);
+
+    // let drr1 = ["abc", "xyz", 5];
+    // let drr2 = drr1.pop(drr1);
+    // console.log(drr2);
+
+    // // const err1 = [1, 2, 3, 4, 5, 7]
+    // // let err2 = err1.shift(err1);
+    // // let err3 = err1.shift(err1);
+    // // let err4 = err1.shift(err1);
+    // // console.log(err2, err3, err4);
+
+    // const zrr1 = [1, 2, 3, 4, 5, 7];
+    // let zrr10 = [10, 11, 12];
+    // let zrr9 = zrr1.concat(zrr10);
+    // console.log(zrr9);
+    //unshift
+    // const prr1 = [2, 3, 4, 5, 6, 7];
+    // let result1 = prr1.unshift("bibek", "bebas");
+    // console.log(prr1)
+    // //slice ko example
+    // const qrr1 = [3, 54, 66, 365]
+    // console.log(qrr1.slice(-4, -3));
+    //assignment
+    // b = ["ram", "shyam", 20, 30, false, true]
+    // a = (b.slice(0, 1))
+    // c = (b.slice(2, 3))
+    // d = (b.slice(4, 5))
+    // v = a.concat(c, d);
+    // console.log(v)
+    // //sort ko example
+    //  const nrr = [5, 7, 3, 5, 2,5,'20','100' ,7, "bebas", 1]
+    // console.log(nrr.sort());
+    // console.log(nrr.reverse());
+    // filter method <syntx>: array.filter(callback(value);argument);
+    // const nrr = [1, 2, 4, 5, 6, 3, "bebas"];
+    // function check(value) {
+    //     return value == "bebas"
+    // }
+    // console.log(nrr.filter(check));
+    // const number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    // const even = number.filter((num) => num % 2 === 0)
+    // console.log(even);
+    // const w = [60, 80, 100, 200, 30, 20]
+    // console.log(w.filter((b) => b >= 80));
+    //map
+    // const a = [81, 4, 9, 16]
+    // console.log(a.map(a => a * 3))
+    //assignment
+    // const b = ["aBC", "bER", "caSS"]
+    // console.log(b.map((b) => b.toUpperCase()))
+    // // const w = ["A", "B", "C"]
+    // console.log(b.map((b) => b.toLowerCase()))
+    // function
+    // let data = "bebas pandey"
+    // function namhaix() {
+    //     console.log(data)
+    // }
+    // namhaix()
+    // let dat = 200
+    // function n() {
+    //     console.log(dat == !200)
+    // }
+    // n()
+    //local variable
+    // function pramod() {
+    //     let message = "hi i'm kale vai ";
+    //     console.log(message)
+    // }
+    // pramod()
+    // //global variable
+    // let  merobby=123;
+    // function utaja(){
+    //     console.log(merobby)
+    // }
+    // utaja()
+    // console.log(merobby)
+    // //argument halerw
+    // function functionname(a,b,c,d)
+    // {
+    //     let opr=a+b*c/d
+    //     console.log("the opr of ",a,b,c,"and",d,"is",opr);
+    // }
+    // functionname(2,39,32,2
+    // )
+    // //this=keyword ho
+    // function person(name,age){
+    //     this.name=name;
+    //     this.age=age;
+    //     this.greet=function(){
+    //         console.log(`my name is ${this.name} and i am ${this.age} old`)
+
+    //     }
+    // }
+    // const bebas=new person("bebas",19)
+    // const bibek=new person("bibek",20)
+    // bebas.greet()
+    // bibek.greet()
+    //assignment
+    // function villan(place, date) {
+    //     this.place = place;
+    //     this.date = date;
+    //     this.nhg = function () {
+    //         console.log(`i study in ${this.place} college since ${this.date}`)
+    //     }
+    // }
+    // const nep = new villan("nepathya", 2079);
+    // const nep2 = new villan("lumbini", 2079);
+    // const nep3 = new villan("oxford", 2079);
+    // nep.nhg();
+    // nep2.nhg();
+    // nep3.nhg();
+
+    // //next-assignment
+    // function bb(name, status) {
+    //     this.name = name;
+    //     this.status = status;
+    //     this.mnb = function () {
+    //         console.log(`name:${this.name},nationality:${this.status}`)
+    //     }
+    // }
+    // const jok1 = new bb("bebas", "Nepali");
+    // const jok2 = new bb("bibek", "Uk");
+    // const jok3 = new  bb("shyam", "indian");
+    // jok1.mnb();
+    // jok2.mnb();
+    // jok3.mnb();
+    //arrow function
+    // const name = (a, b) => {
+    //     let sum = a + b
+    //     console.log(sum);
+    // }
+    // name(10, 2);
+
+
+    //object
+    //  const person={
+    //     firstName:"bibek",
+    //     lastName:"bishwokarma",
+    //     age:24,
+    //     eyecolor:"brown",
+    //  }
+    //  console.log(person.firstName)
+
+
+    //nested object
+    // const details = {
+    //     name: "bebas pandey",
+    //     age: 19,
+    //     status: "married",
+    //     address: {
+    //         street: "janakinagar",
+    //         ward: 3
+    //     }
+    //   }
+    // console.log(details.address.street)
+
+    // let detail=new Object()
+    // detail.id=101;
+    // detail.name="bebas pandey";
+    // detail.salary=500000;
+    // console.log(detail.id+" "+ detail.name)
+    //assignment
+    // const people = [
+    //     { name: "priya", nation: "usa" },
+    //     { name: "tham kumari", nation: "japan" },
+    //     { name: "bidhya", nation: "uganda" },
+    //     { name: "aman", nation: "egypt" },
+    //     { name: "madhu", nation: "usa" },
+    // ]
+    // function ash(people, nation) {
+    //     return people.filter(b => b.nation === nation);
+    // }
+    // let mobile = ash(people, "usa");
+    // console.log(mobile);
+
+    // console.log(people[2].name)
+    //  const mobile = people.filter(people => people.nation === "usa");
+    //  console.log(mobile);
+
+
+    // const student = [
+    //     {
+    //         name: "bebas",
+    //         age: 19,
+    //         address: {
+    //             city: "ktm",
+    //             country: "nepAL",
+
+    //         }
+    //     },
+    //     {
+    //         name: "bibek",
+    //         age: 20,
+    //         address: {
+    //             city: "btl",
+    //             country: "nepal",
+    //         }
+    //     },
+    //     {
+    //         name: "pramod",
+    //         age: 20,
+    //         address: {
+    //             city: "btl",
+    //             country: "nepal",
+    //         }
+    //     },
+
+    // ]
+    // console.log(student[0].address.city)
+    // console.log(student[1].address.city)
+    // console.log(student[2].address.city)
+    // console.log(student[2].name)
+
+
+    // const data={
+    //     name:"bebas",
+    //     address:[
+    //         {
+    //             street: "janakinagar",
+    //             name: "palpa",
+
+    //         }
+    //     ]
+
+
+
+    // }
+    // console.log(data.address[0].street)
+
+    // const libary = {
+    //     name: "mero libary",
+    //     location: "manigram",
+    //     book: [
+    //         {
+    //             title: "book1",
+    //             author: "bijay",
+    //             genera: ["fantasy", "mystry"]
+
+    //         },
+    //         {
+    //             title: "book2",
+    //             author: "bijju",
+    //             genera: ["fantasy", "mystry"]
+    //         },
+    //         {
+    //         title:"book3",
+    //         author:"beb",
+    //         genera:["fantasy","mystry"]
+    //         },
+
+
+    //     ]
+    // }
+    // console.log(libary.book[1].author)
+    // console.log(libary.book[2].genera)
+    // const str = "abse";
+    // console.log(str.charAt(1), str.charAt(3), str.charAt(1), str.charAt(0), str.charAt(2))
+
+    // console.log(str.charAt(3))
+    // console.log(str.charAt(1))
+    // console.log(str.charAt(0))
+    // console.log(str.charAt(2))
+
+    // //indexof
+    // console.log(str.indexOf("e"))
+    // const b="this    class   is     so     bad";
+    // document.write(b.trim())
+
+    //loops
+
+    // for(let i=1;i<=10;i++)
+    // {
+
+    //     console.log(`2*${i}`,"=",2*i);
+
+
+    // }
+
+    //example
+
+    // let a = 1;
+    // for (let i = 5; i >= 1; i--) {
+    //     a = a * i;
+    // }
+    // console.log(a);
+
+    //example using prompt
+
+    // let fact = prompt("enter any num");
+    // a = 1;
+    // for (let i = fact; i >= 1; i--) {
+    //     a = a * i;
+    // }
+    // console.log(" Factorial of given nbr:", `${fact}`, "=", a);
+    // console.log(typeof (fact))
+
+    // let b=parseInt(prompt("first"));
+    // let c=parseInt(prompt("second"));
+    // console.log(b+c)
+
+
+    //fabonacci series
+    // let n = parseInt(prompt("enter the looping nbr"));
+    // let a = 0
+    // let b = 1
+    // let nextterm;
+    // for (let i = 0; i < n; i++) {
+    //     console.log(a)
+    //     nextterm = a + b;
+    //     a = b;
+    //     b = nextterm;
+    // }
+
+    //     for (let i = 1; i <= 5; i++) {
+    //         let eyy = "";
+    //         for (let j = 1; j <= i; j++) {
+    //             eyy = eyy + "*";
+    //         }
+    //         console.log(eyy);
+    //     }
+
+
+    //     for (let i = 1; i <= 5; i++) {
+    //         let k = "";
+    //         for (let k = 1; k < i; k++) {
+    //             k = k + " ";
+    //         }
+
+    //         for (let j = 5; j >= i; j--) {
+    //             k = k + "*";
+    //         }
+    //         console.log(k);
+    //     }
+    //     let a=1
+    // let num = parseInt(prompt("num"))
+    // while(a<=5)
+    // {
+    //     console.log(`${num}*${a}`,"=",num*a);
+    //     a++;
+    // }
+
+
+    // //assignment
+    // let i = 1;
+    // let cobra = "";
+    // while (i <= 5) {
+    //     cobra = cobra + i;
+    //     console.log(cobra);
+    //     i++;
+    // }
+
+    //do while
+    // let i=1;
+    // do{
+    //     console.log(i)
+    //     i++;
+
+    // }
+    // while(i<=10)
+
+
+
+    //forEach syntax: array.forEach(callback(index,value,array))
+    // const bebas=[ "c","c++","java","js"]
+    // bebas.forEach((value,index,array)=>{
+    //     console.log(`the index is ${index+1} and the value is ${value} and the array is${array} `)
+    // })
+
+
+    // let beb=[10,40,50,60]
+    // bebas=[]
+    // beb.forEach((value,index,beb)=>{
+    //    bebas.push(value*10)
+    // })
+    // console.log(bebas)
+
+    //assignment
+    // const films = [
+    //     {
+    //         name: "ABC",
+    //         date: "2000"
+    //     },
+    //     {
+    //         name: "DY",
+    //         date: 1998
+    //     },
+    //     {
+    //         name: "XYZ",
+    //         date: 2002
+    //     },
+    //     {
+    //         name: "FGH",
+    //         date: 1997
+    //     }
+    // ]
+    // films.forEach(film => {
+    //     if (film.date < 2000) {
+    //         console.log(film.name);
+    //     }
+    // });
+
+
+
+    //for each bata
+    //    y=(films.filter(film => film.date < 2000))
+    //    y.forEach((value )=>{ 
+    //    console.log(` ${value.name}`)})
+    // //    console.log(y[0].name)
+    //    console.log(y[1].name)
+
+
+    //example for loop
+    // u = films.filter((data) => {
+    //     return data.date < 2000;
+    // });
+    // for (let i = 0; i < u.length; i++) {
+    //     console.log(u[i].name)
+    // }
+
+    //reduce ko example    
+    // const w = [2, 4, 6, 8, 0]
+    // p = w.reduce((previous, current) => {
+    //     return previous + current;
+    // });
+    // console.log(p)
+
+
+    //sort ko example
+    // const number = [10, 20, 60, 250, 100]
+    // console.log( number.sort(function (a , b)  { return a - b }));
+
+    //break anfd continue
+
+    // for (let i = 0; i <= 5; i++) {
+    //     if (i === 3) {
+
+    //         console.log("before:", i)
+    //         continue;
+    //     }
+
+    //     console.log("after: ", i)
+
+    // }
+
+    //objects
+
+    // const city={
+    //     id:1234,
+    //     name:"butwal",
+    //     zip_code:32907,
+    //     city_detail:function()
+    //     {
+    //         return this.name + ' ko zip code : ' + this.zip_code;
+
+    //     }
+
+
+    // }
+    // console.log(city.city_detail())
+
+    // const city= new Object
+    // city.name="butwal";
+    // city.address="abc";
+    // city.zip_code="32907";
+    // console.log(typeof(city))
+    // console.log(city);
+
+
+
+
+    // console.log(`the name of city:${city.name}`)
+    // console.log(`the id of city:${city.id}`)
+    // console.log(` the zip code of city: ${city.zip_code}`)
+    // var library=[
+    //                 {
+    //                     title:'The Road Ahead',
+    //                     author:'Bill Gates',
+    //                     libraryID:1254
+    //                 },
+    //                 {
+      
+    //                     title:'Walter Isaacson',
+    //                     author:'Steve Jobs',
+    //                     libraryID:4264
+    //                 },
+    //                 {
+    //                     title:'Brief of History of Time',
+    //                     author:'Stephen Hawking',
+    //                     libraryID:9871
+    //                 },
+    //                 {
+    //                     title:'Mockingjay: The Final Book',
+    //                     author:'Suzanne Colins',
+    //                     libraryID:3245
+    //                 }
+    //             ]
+    //             console.log(library.sort((a,b)=>a.libraryID-b.libraryID))
+
+    //             //constructor example
+    //             function Person(fName, lName, age, eye) {
+    //   this.fName = fName;
+    //   this.lName = lName;
+    //   this.age = age;
+    //   this.eyeColor = eye;
+    //   this.fullName=function name(){
+    //     return this.fName + " " + this.lName +"\t"+ this.age+"\t" + this.eyeColor;
+    //   }
+    // }
+    // const person1= new Person("aman","khadka","20","blue");
+    // const person2= new Person("madhu","pokheral","20","black");
+    // person2.religion="hindu";
+
+    // console.log("My name is:"+ person1.fullName());
+    // console.log("my name is :"+ person2.fullName());
+    // console.log(person1,person2)
+
+    // class Rectangle {
+    //     constructor(length, breadth) {
+    //         this.length = length
+    //         this.breadth = breadth
+    //     }
+    //     CalculateArea() {
+    //         let area = this.length*this.breadth
+    //         console.log(`area is a:${area}`);
+    //     }
+
+
+    // }let rect1 = new Rectangle(5, 10);
+    // let rect2 = new Rectangle(20, 10);
+    // rect1.CalculateArea();
+    // rect2.CalculateArea();
+
+    //assignment
+
+    //     class Circle{
+    //     constructor(radius,PI)
+    //     {
+    //         this.radius=radius
+    //         this.pi=PI
+    //     }
+    //     calculateArea()
+    //     {
+    //         let area=this.pi*this.radius*this.radius
+    //         console.log("Area is:",area)
+    //     }
+    //    }let circle1=new Circle(8,3.14)   //math.PI
+    //    circle1.calculateArea()
+
+
+
+    //    class golo{
+    //     constructor(radius,PI)
+    //     {
+    //         this.radius=radius
+    //         this.pi=PI
+    //     }
+    //     calculatePerimeter()
+    //     {
+    //         let perimeter=2*this.pi*this.radius
+    //         console.log("Perimeter is:",perimeter)
+    //     }
+    //    }let circle2=new golo(8,3.14)   //math.PI=3.14
+    //    circle2.calculatePerimeter()
+
+
+
+
+    // perimeter of sqr
+    //  class Perimeter{
+    //     constructor(length)
+    //     {
+    //         this.length=length
+    //     }
+    //     CalculatePerimeter()
+    //     {
+    //         let perimeter=4*this.length
+    //         console.log(`perimeter of square is:${perimeter}`)
+    //     }
+    //  }
+    //  let len = parseInt(prompt("number"))
+    //  let Per= new Perimeter(len);
+    //  Per.CalculatePerimeter()
+
+    //callback function
+    // let fName=prompt('enter the name');
+    // let age =parseInt(prompt('enter the age'));
+    // console.log(`my name is ${fName} and age is ${age}`);
+    //using callback function
+    //   function name(name,callback){
+    //      console.log("hello"," " + name);
+
+    //    callback();
+    //   }
+    //   name('bebas',function(){
+    //      console.log("this function is exucted after the hello name output");   
+    //   })
+
+    //   //example
+    //   function display(name,age)
+    //   {
+    //      console.log(name,age)
+    //   }
+    //   function firstFunc()
+    //   {
+    //      display("javascript",23);
+    //   }
+    //   function secondFunc()
+    //   {
+    //      display("ghsgfh",54);
+    //   }
+    //   firstFunc()
+    //   secondFunc()  
+
+    //assignment
+
+    // function addition(num1,num2,callback){
+    //   const result=num1+num2;
+    //   callback(result)
+    // }
+    // function subtraction(num1,num2,callback){
+    //   const result=num1-num2;
+    //   callback(result)
+    // }
+    // function mult(num1,num2,callback){
+    //   const result=num1*num2;
+    //   callback(result)
+    // } 
+    // function displayresult(result){
+    //   console.log(result)
+    // }
+    // let a=parseInt(prompt("enter first num"));
+    // let b=parseInt(prompt("enter the second num"));
+    // addition(a,b,displayresult)
+    // subtraction(a,b,displayresult)
+    // mult(a,b,displayresult)
+
+    //parent wala
+    // class animal{
+    //   constructor(animalName,animalColor){
+    //     this.name=animalName;
+    //     this.colors=animalColor;
+    //   }
+    //   run(){
+    //     console.log(`${this.name} is running`)
+    //   }
+    //   shout(){
+    //     console.log(`${name} is shouting`)
+    //   } 
+    // }
+    // class monkey extends animal{
+    //   eatBanana(){
+    //     console.log(`${this.name} is eating banana`)
+    //   }
+    //   color(){
+    //     console.log(`the color of ${this.name} is ${this.colors}`)
+    //   }
+    // }
+    //      let animal1= new animal("dog","black");
+    //      let monkey1=new monkey("monkey","white");
+    //      animal1.run()
+    //      monkey1.run()
+    //      monkey1.color()
+
+    // class calculation{
+    //   constructor(time,rate,principle){
+    //     this.time=time
+    //     this.rate=rate
+    //     this.principle=principle
+
+    //   }
+    //   i(){
+    //     console.log((this.time*this.rate*this.principle)/100)
+    //   }
+
+    // }
+    // class prin extends calculation{
+    //   constructor(time,rate,interest,principle){
+    //   super(time,rate,principle)
+    //   this.interest=interest  
+    //   }
+
+    //   p(){
+
+    //     console.log((this.interest*100)/(this.rate*this.time))
+    //   }
+    // }
+    // let c1= new calculation(1,10,100);
+    // let p1=new prin(1,10,100,10);
+    // c1.i()
+    // p1.p()
+    // p1.i() 
+    // super keyboard
+    // class collage {
+    //   constructor(name, klass) {
+    //     this.name = name;
+    //     this.klass = klass;
+    //   }
+
+    //   holiday() {
+    //     console.log(`${this.name} student of ${this.klass} is absent`)
+    //   }
+    // }
+    // class student extends collage {
+    //   constructor(name, klass, gpa) {
+
+        // super(name, klass)
+        // this.gpa = gpa
+
+
+
+    //   }
+    //   method() {
+    //     console.log(`${this.name} student of ${this.klass} has scored ${this.gpa}`)
+    //   }
+    // }
+
+    // const student1 = new student("luffy", "yanl", 4)
+    // const collage1 = new collage("bebas", "bsc csit")
+    // student1.holiday()
+    // collage1.holiday()
+    // student1.method()
+
+    /////
+    // class person{
+    //   constructor(name){
+    //     this.name=name
+    //   }
+    //   introduce(){
+    //     console.log(this.name)
+    //   }
+    // }
+    // class student extends person{
+    //   constructor(name,position){
+    //     super(name)
+    //   this.position=position
+    //   }
+    //   introduce(){
+    //     super.introduce()
+    //     console.log(`${this.name} and position is ${this.position}` )
+    //   }
+
+    // }
+    
+    // let b= new student("bebas","last")
+    // b.introduce()
+
+    //getter and setter
+    //  class fruits{
+    //   constructor(name){
+    //     this.name=name;
+    //    // console.log(name)
+
+    //   }
+    //   get displayfruitName(){
+    //     return this.name;
+    //   }
+    //   set setfruitName(newName){
+    //     this.name=newName; 
+    //   }
+    //  }
+    //  let fruit1=new fruits("apple");
+    //  fruit1.setfruitName="banana"
+    //  console.log(fruit1.displayfruitName);
+       
+    //  //example
+
+    //  class person{
+    //   constructor(fullname){
+    //     this._fullname=fullname;  
+    //   }
+    //   get fullname(){
+    //     return this._fullname;
+    //   }
+    //   set fullname(newname){
+    //     this._fullname=newname
+    //   }
+    //  }
+    //  const person1= new person("bebas");
+    //  console.log(person1.fullname)
+
+     //create a class account with data members acc_no,balance and min_balance
+
+    
+
+    // class Account {
+    //     constructor(members, acc_no, balance, min_balance) {
+    //       this.members = members;
+    //       this.acc_no = acc_no;
+    //       this.balance = balance;
+    //       this.min_balance = min_balance;
+    //     }
+
+    //     display() {
+    //       console.log(
+    //         `Account Holder Name: ${this.members}  Account No: ${this.acc_no} Total Balance: ${this.balance} Minimim Balance: ${this.min_balance}
+    //       `);
+    //     }
+    //     minimumbalance() {
+    //       console.log(`Minimum Balance:${this.min_balance}`);
+    //     }
+    //   }
+
+    //   const array1 = [
+    //     new Account("kallu vai", 168192188, 209000, 100),
+    //     new Account("Bijay Chaudhary", 168192189, 390122, 200),
+    //     new Account("Pramod Ghimire", 168192190, 564332, 300),
+    //     new Account("Bebas Pandey", 168192191, 238883, 400),
+    //     new Account("Ashok dai", 168192192, 4535344, 500),
+    //   ];
+    //   array1.forEach((account) => {
+    //     account.display();
+    //     account.minimumbalance();
+    //   });
+
+      //create a class teacher with data members t_id and subject
+      
+    //   class teacher{
+    //     constructor(t_id,subject){
+    //     this.id=t_id
+    //     this.sub=subject
+    //     }
+    // }
+    // class staff extends teacher{
+    //   constructor(t_id,subject,s_id,position){
+    //     super(t_id,subject)
+    //     this.s_id=s_id
+    //     this.position=position
+        
+    //   }  
+    // }
+    // class coordinator extends staff{
+    //   constructor(t_id,subject,s_id,position,department){
+    //     super(t_id,subject,s_id,position)
+    //   this.department=department
+   
+    //   }
+    //   display(){
+    //     console.log(`teacher id :${this.id} subject:${this.sub} and staff id:${this.s_id} position:${this.position}  department:${this.department}`)
+    //   }
+    // }
+    // let c1=new coordinator(11,"c",23,"principle","administration")
+    // let c2=new coordinator(12,"oop",24,"vice-principle","accountant")
+    // c1.display()
+    // c2.display()
+
+//     //random
+//     console.log(Math.random())
+//     console.log(Math.random())
+//     console.log(Math.random())
+//     console.log(Math.random())
+//     console.log(Math.random())
+//     console.log(Math.random())
+// // floor
+//     console.log(Math.floor(2.1))
+//     console.log(Math.floor(0.5))
+//    console.log(Math.floor(5.35))
+//    console.log(Math.floor(-9.08))
+//    console.log(Math.floor(9.9))
+
+//    //ceilling
+//    console.log(Math.ceil(2.1))
+//     console.log(Math.ceil(0.5))
+//    console.log(Math.ceil(5.35))
+//    console.log(Math.ceil(9.08))
+//    console.log(Math.ceil("v"))
+
+//    //sqrt
+//    console.log(Math.sqrt(36))
+//     console.log(Math.sqrt(144,36))
+//    console.log(Math.sqrt("a"))
+//    console.log(Math.sqrt(81))
+//    console.log(Math.sqrt(-36))
+//    //trunc
+//    console.log("trunc")
+   
+//    console.log(Math.trunc(36.9))
+//     console.log(Math.trunc(1.44))
+//    console.log(Math.trunc("a"))
+//    console.log(Math.trunc(81.99))
+//    console.log(Math.trunc(-36.09))
+
+
+
+  
+    
+  
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  </script>
+</body>
+
+</html>
